@@ -1,12 +1,19 @@
-h1 {
-    color: #27aedb;
-    text-align: center;
-    }
-    
-
-button{
-    color: #27aedb;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-}
+.keypad{
+    display: grid;
+   grid-template-columns: repeat(4,100px);
+   grid-template-rows: repeat(4,50px);
+   
+ }
+ form{
+ display: grid;
+ justify-content: center;
+ }
+ .App{
+   display: grid;
+   justify-content: center;
+   margin-top: 100px;
+ }
+ input{
+   width: 374px;
+   padding: 10px;
+ }
