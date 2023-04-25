@@ -41,7 +41,7 @@ function App() {
         <button value="9" onClick={clickBtn}>
           9
         </button>
-        <button value="+" onClick={clickBtn}>
+        <button id="plus" value="+" onClick={clickBtn}>
           +
         </button>
         <button value="4" onClick={clickBtn}>
@@ -53,7 +53,7 @@ function App() {
         <button value="6" onClick={clickBtn}>
           6
         </button>
-        <button value="=" onClick={calculate}>
+        <button id="equal" value="=" onClick={calculate}>
           =
         </button>
         <button value="1" onClick={clickBtn}>
@@ -70,6 +70,9 @@ function App() {
         </button>
         <button value="." onClick={clickBtn}>
           .
+        </button>
+        <button value="" onClick={clickBtn}>
+          
         </button>
       </div>
     </div>
