@@ -1,17 +1,16 @@
-import React, { useState } from "react";
-
+import React, { useState } from 'react'
 
 function App() {
-  const [result, setResult] = useState("");
+  const [result, setResult] = useState('')
 
   function clickBtn(event) {
-    setResult(result.concat(event.target.value));
+    setResult(result.concat(event.target.value))
   }
-  function clearDisplay(){
-    setResult("");
+  function clearDisplay() {
+    setResult('')
   }
-  function calculate(){
-    setResult(eval(result));
+  function calculate() {
+    setResult(eval(result))
   }
   return (
     <div className="App">
@@ -71,12 +70,10 @@ function App() {
         <button value="." onClick={clickBtn}>
           .
         </button>
-        <button value="" onClick={clickBtn}>
-          
-        </button>
+        <button value="" onClick={clickBtn}></button>
       </div>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
